@@ -1,0 +1,55 @@
+/* IMPORTS */
+@import url("https://fonts.googleapis.com/css?family=Philosopher|Trocchi");
+.herramientas{
+    margin-top: 2em;
+    text-align: center;
+    font-family: 'Trocchi', serif;
+    font-size: 20px;
+    color:#111;
+}
+/* parte de las imagenes */
+.grow:hover
+{
+-webkit-transform: scale(1.3);
+-ms-transform: scale(1.3);
+transform: scale(1.3);
+}
+.img-fluid{
+    display: inline-block;
+}
+.row{
+    margin-top: 2em;
+    align-content: center;
+}
+
+body {
+	background-color: #111;
+}
+.container{
+    margin-top: 2em;
+}
+.card{
+    margin: 1.5em;
+}
+.card-card{
+    margin-left: 220px;
+}
+
+@media (max-width: 700px ) {
+    .card-card{
+        margin-left: 50px;
+    }
+    .card{
+        margin-left: 40px;
+    }
+}
+@media only screen and ( max-width: 1024px ) {
+	
+    .card-card{
+        margin-left: 50px;
+    }
+    .card{
+        margin-left: 40px;
+    }
+      
+  }

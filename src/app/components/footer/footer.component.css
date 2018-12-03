@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Tangerine');
+.footer{
+    background-color: #a4d5a6;
+    margin-top: 5em;
+}
+.fa{
+    font-size: 2em;
+}
+.icono{
+    text-decoration: none;
+    padding: 2px;
+    font-size: 30px;
+    color: #f0f5f1;
+    margin-top: 0.5em;
+    width: 1.5em;
+}
+.marca{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 30px;
+}

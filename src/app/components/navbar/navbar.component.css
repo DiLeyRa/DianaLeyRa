@@ -1,0 +1,75 @@
+#bg, #search-bg {
+	background-image: url('../../../assets/images/fondo1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+  }
+  
+  #bg {
+	background-position: center top;
+	padding: 50px;
+	height: 700px;
+  }
+  
+  #search-container {
+	position: relative;
+  }
+  
+  #search-bg {
+	/* Absolutely position it, but stretch it to all four corners, then put it just behind #search's z-index */
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	z-index: 99;
+  
+	/* Pull the background 70px higher to the same place as #bg's */
+	background-position: center -70px;
+	-webkit-filter: blur(10px);
+	filter: url('/media/blur.svg#blur');
+	filter: blur(10px);
+  }
+  .bg-text {
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+	color: white;
+	font-weight: bold;
+	border: 3px solid #f1f1f1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 60%;
+	padding: 30px;
+	text-align: center;
+	margin-top: 200px;
+	}
+	.navbar{
+		background-color:transparent !important;
+		border-color:transparent;
+		background-image:none;
+		box-shadow:none;  
+}
+.navbar .navbar-nav>li>a {
+	font-size:15px; 
+	color:rgb(0,0,0);; 
+}
+
+  
+  @media (max-width: 600px ) {
+	#bg { padding: 10px; height: 400px;}
+	#search-bg { background-position: center -10px; }
+	.bg-text{margin-top: 125px; font-size: 15px; width: 55%;
+		padding: 8px;}
+		#bg, #search-bg {
+			background-repeat: no-repeat;
+			background-size: 600px 95%;
+			}
+	
+	} 
+	
+  
+  #search h2, #search h5, #search h5 a { text-align: center; color: #fefefe; font-weight: normal; }
+  #search h2 { margin-bottom: 50px }
+  #search h5 { margin-top: 70px }
